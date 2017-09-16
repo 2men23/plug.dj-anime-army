@@ -108,7 +108,7 @@
 
     var loadChat = function(cb) {
         if (!cb) cb = function() {};
-        $.get('https://github.com/2men23/plug.dj-anime-army/edit/master/basicBot.js', function(json) {
+        $.get('https://github.com/2men23/plug.dj-anime-army/blob/master/basicBot.js', function(json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== 'undefined') {
                 langIndex = json;
@@ -246,7 +246,7 @@
         status: false,
         name: 'animefan#1',
         loggedInID: null,
-        scriptLink: 'https://github.com/2men23/plug.dj-anime-army/edit/master/basicBot.js',
+        scriptLink: 'https://github.com/2men23/plug.dj-anime-army/blob/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
         chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
         chat: null,
@@ -256,7 +256,7 @@
         settings: {
             botName: 'animefan#1',
             language: 'english',
-            chatLink: 'https://github.com/2men23/plug.dj-anime-army/edit/master/basicBot.js',
+            chatLink: 'https://github.com/2men23/plug.dj-anime-army/blob/master/basicBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 10, // 1-200
             startupVolume: 100, // 0-100
